@@ -12,4 +12,4 @@ services:
 
 secrets:
   SECRET1:
-    file: /run/secrets/secret1.txt
+    external: true
