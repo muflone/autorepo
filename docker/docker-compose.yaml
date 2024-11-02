@@ -3,7 +3,7 @@ services:
     container_name: app1
     image: ubuntu:21.10
     volumes:
-      - ./src:/src:ro
+      - ../src:/src:ro
     command: /src/main.sh
     env_file:
       - ./app.env
