@@ -2,7 +2,7 @@
 
 i=0
 
-while [ $i -lt $1 ]
+while [ $i -lt ${COUNTER} ]
 do
   i=$(($i + 1))
   echo $i
