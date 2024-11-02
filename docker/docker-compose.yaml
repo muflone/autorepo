@@ -1,0 +1,7 @@
+services:
+  app:
+    container_name: app1
+    image: ubuntu:21.10
+    volumes:
+      - ../src:/src:ro
+    command: /src/main.sh 5
