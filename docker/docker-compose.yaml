@@ -12,4 +12,4 @@ services:
 
 secrets:
   SECRET1:
-    file: secret1.txt
+    file: /run/secrets/secret1.txt
