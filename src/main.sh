@@ -1,7 +1,8 @@
 #!/bin/sh
 
-i=0
+echo ${SECRET1}
 
+i=0
 while [ $i -lt ${COUNTER} ]
 do
   i=$(($i + 1))
