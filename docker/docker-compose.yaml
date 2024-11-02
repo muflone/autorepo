@@ -4,4 +4,4 @@ services:
     image: ubuntu:21.10
     volumes:
       - /home/muflone/autorepo/src:/src:ro
-    command: /src/main.sh 5
+    command: /src/main.sh 20
