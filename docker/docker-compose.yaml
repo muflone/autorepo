@@ -12,4 +12,4 @@ services:
 
 secrets:
   SECRET1:
-    environment: "SECRET1"
+    external: true
