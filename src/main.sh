@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo ${SECRET1}
+cat /run/secrets/SECRET1
 
 i=0
 while [ $i -lt ${COUNTER} ]
