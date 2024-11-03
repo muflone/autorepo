@@ -1,6 +1,6 @@
 #!/bin/sh
 
-The password is "$(cat /run/secrets/SECRET1)"
+echo The password is "$(cat /run/secrets/SECRET1)"
 
 i=0
 while [ $i -lt ${COUNTER} ]
