@@ -9,9 +9,3 @@ services:
     command: /src/main.sh
     env_file:
       - ./app.env
-    secrets:
-      - SECRET1
-
-secrets:
-  SECRET1:
-    external: true
